@@ -1,0 +1,152 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: white;
+    height: 90px;
+    width : 100%;
+}
+
+ul {
+    float: right;
+    margin-top: 35px;
+}
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(41, 39, 39);
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    transition: 0.6s;
+    margin: 15px;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    background-color: rgb(217, 212, 228);
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    padding: 0px 15px;
+    margin-top: -30px;
+}
+
+.navbar li span{
+    color: rgb(138, 104, 201);
+    font-weight: bold;
+}
+
+.fa-search{
+    padding-left: 170px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    border: 2px solid rgb(231, 229, 235) ;
+    border-radius: 30px;
+}
+
+.fa-bars {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+body{
+    background-color:  rgb(138, 104, 201);
+}
+
+.main-face{
+    height: 600px;
+    width : 100%;
+    background-color: #6362E0;
+}
+
+.face-tulisan{
+    padding-top : 175px;
+    padding-left : 200px;
+
+}
+.face-judul{
+    font-size : 50px;
+    color : white;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.face-keterangan{
+    font-size: 32px;
+    padding-top: 30px;
+    color : white;
+
+}
+
+.btn-face{
+    padding-top :50px;
+}
+
+.btn-face a{
+    background-color: #666666;
+    color : white;
+    padding: 15px 25px;
+    text-decoration: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.face-image img{
+    position: absolute;
+    width: 492px;
+    height: 409px;
+    left: 800px;
+    top: 225px;
+
+}
+
+.header-wave{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+.header-wave img{
+    position: absolute;
+    left : -12px;
+    width: 100%;
+}
+
+.main-explanation{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    position : relative;
+
+}
+
+.explan-pic img{
+    position: absolute;
+    width: 400px;
+    height: 520px;
+    top : 175px;
+    left : 200px;
+    border-radius: 15px;
+}
+
+.explan-text {
+    width : 400px;
+    text-align: center;
+    position : absolute;
+    left : 850px;
+    top : 125px;
+}
+
+.explan-text p{
+    text-justify: inter-word;
+    padding-top : 20px;
+}
+
