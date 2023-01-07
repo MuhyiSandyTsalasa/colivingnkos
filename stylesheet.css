@@ -58,5 +58,316 @@ img{
 }
 
 body{
-    background-color:  rgb(138, 104, 201);
+    background-color: white;
 }
+
+section{
+    width: 100%;
+    min-height: 700px;
+}
+
+.wave{
+    position: relative;
+    background: #6362E0;
+}
+
+.wave::before{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-image: url("waveheader.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+
+}
+
+.container {
+    width: 1170px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+
+
+.top-text{
+    padding-top: 160px;
+    color: white;  
+  }
+
+.top-text h3{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.top-text p{
+    font-size: 32px;
+    padding-top : 5px;
+}
+
+.top-button{
+    padding-top :50px;
+}
+
+.top-button a{
+    background-color: #666666;
+    color : white;
+    padding: 15px 25px;
+    text-decoration: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.top-wrapper{
+    position: relative;
+}
+
+.top-image{
+    position: absolute;
+    top : 120px;
+    left: 750px;
+
+}
+.top-image img{
+    width: 600px;
+    height: 450px;
+}
+
+.explanation-wrapper{
+    min-height: 700px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.explanation-image{
+    display: inline-block;
+    max-width: 50%;
+    text-align: left;
+    padding: 30px;
+    border-radius: 3px;
+    margin: 15px;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+.explanation-image img{
+    width: 400px;
+    height: 530px;
+    border-radius: 30px;
+}
+
+.explanation-text{
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 50%;
+    text-align: left;
+    padding: 30px;
+    border-radius: 3px;
+    padding-top: 60px;
+    margin: 15px;
+    margin-left: 40px;
+    padding-left: 150px;
+    margin-right: 0;
+}
+
+.explanation-text h4{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.explanation-text p{
+    padding-bottom: 15px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.recommendation-wrapper{
+    min-height: 600px;
+    background-color: #6362E0;
+}   
+
+.recommendation-title{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 20px;
+}
+
+.recommendation-content{
+    display: flex;
+}
+
+.recommendation-box{
+    background-color: #6362E0;
+    flex: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 310px;
+    border-radius : 20px;
+}
+
+.recommendation-box img{
+    width: 100%;
+    height: 310px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.testimony-wrapper{
+    min-height: 600px;
+}
+
+.testimony-title{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 20px;
+}
+
+.testimony-content{
+    display: flex;
+}
+
+.testimony-box{
+    flex : auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 310px;
+    border-radius : 20px;
+}
+
+.testimony-box img{
+    width: 100%;
+    height: 310px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact-wrapper{
+    min-height : 600px;
+}
+
+.contact-title{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 20px;
+}
+
+.contact-content{
+    display: flex;
+}
+
+.contact-image{
+    flex: auto;
+}
+
+.contact-image img{
+    width : 450px;
+    height: 350px;
+}
+
+.contact-line img{
+    height : 300px
+}
+.contact-text{
+    flex: auto;
+    padding-left: 50px;
+}
+
+.contact-text h4{
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+.contact-text p{
+    font-size: 18px;
+    padding-bottom: 25px;
+    line-height: 25px;
+
+}
+
+.contact-bold{
+    font-weight: bold;
+}
+
+.conatct-whatsapp-button{
+    color : white;
+    padding: 15px 25px;
+    text-decoration: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    padding: 50px 50px 30px 50px;
+}
+  
+.footer{
+    background-color:#6362E0;
+    color: #ffff;
+    box-sizing: border-box;
+    width:100% ;
+}
+
+.footer .container-logo{
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media (max-height: 800px){
+    footer{
+        position: static;
+    }
+  }
+  
+  .footer .container-logo{
+    width: 60%;
+  }
+  
+  .footer h4{
+    font-family : "Avenir Next";
+    padding-bottom: 20px;
+    margin:0;
+    padding-bottom: 20px;
+    font-weight:lighter;
+    font-size: 20px;
+  }
+  
+  .footer .container-logo img{
+    width: 25px;
+    height: fit-content;
+    vertical-align: middle;
+    margin: 0 10px;
+    padding-bottom: 30px;
+    padding-left : 0px;
+    padding-right: 0px;
+  }
+  
+  .footer .container-logo .container-list-app{
+    width: 100%;
+  }
+  
+  .container-copyright p{
+    font-size: 15px;
+    padding-top: 15px;
+    text-align: center;
+  }
+  
+  .container-list-menu{
+    float:right;
+    padding-right: 40px;
+    font-size: 20px;
+    
+  }
+  
+  .container-list-menu li{
+    padding-bottom: 20px;
+    display: list-item;
+    font-family : "Avenir Next";
+  }
