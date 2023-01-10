@@ -169,7 +169,7 @@ section{
     transform: scale(1, 1);
 }
 
-.top-button button{
+.top-button a{
     background-color: #666666;
     color : white;
     padding: 15px 25px;
