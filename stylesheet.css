@@ -38,10 +38,6 @@ img{
     margin-top: -30px;
 }
 
-.navbar li {
-    position: center;
-}
-
 .navbar li span{
     color: rgb(138, 104, 201);
     font-weight: bold;
