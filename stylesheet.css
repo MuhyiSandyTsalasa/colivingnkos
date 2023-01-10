@@ -44,7 +44,7 @@ img{
 }
 
 .fa-search{
-    padding-left: 170px;
+    padding-left: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
@@ -360,7 +360,6 @@ section{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 footer{
-    position: fixed;
     bottom: 0;
     padding: 50px 50px 30px 50px;
 }
