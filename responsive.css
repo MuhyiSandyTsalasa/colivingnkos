@@ -1,7 +1,6 @@
 @media screen and (max-width: 600px) {
 
     /* styles for devices with screens smaller than 600px */
-    /* you can use grid and flexbox to define layout for this condition*/
     .container {
         flex-wrap: wrap;
         display: flex;
