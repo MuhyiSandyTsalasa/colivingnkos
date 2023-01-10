@@ -1,1 +1,27 @@
+@media screen and (max-width: 600px) {
 
+    /* styles for devices with screens smaller than 600px */
+    /* you can use grid and flexbox to define layout for this condition*/
+    .container {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    ul li {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /*styles for top-image and top-button*/
+    .top-image {
+        display: none;
+    }
+
+    .top-button {
+        width: 100%;
+        text-align: center;
+    }
+}
