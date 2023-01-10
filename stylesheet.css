@@ -108,7 +108,10 @@ section{
 }
 
 .top-button{
-    padding-top :50px;
+    display: grid;
+    grid-template-columns: repeat(2, 180px);
+    gap: 30px;
+    padding: 15px 25px;
 }
 
 .button-fill {
@@ -152,7 +155,7 @@ section{
     transform: scale(1, 1);
 }
 
-.top-button a{
+.top-button button{
     background-color: #666666;
     color : white;
     padding: 15px 25px;
