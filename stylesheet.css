@@ -114,6 +114,19 @@ section{
     padding: 15px 25px;
 }
 
+.button {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    outline: 2px solid #7EFFB2;
+    padding: 30px 60px;
+    overflow: hidden;
+    transition: color 1s;
+}
+
 .button-fill {
     display: flex;
     justify-content: center;
