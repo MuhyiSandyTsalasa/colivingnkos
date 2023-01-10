@@ -45,6 +45,7 @@ img{
 
 .fa-search{
     padding: 5px 5px 5px;
+    margin: 5px 5px 5px;
     border: 2px solid rgb(231, 229, 235) ;
     border-radius: 30px;
 }
