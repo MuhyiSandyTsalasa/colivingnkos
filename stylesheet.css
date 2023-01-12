@@ -49,6 +49,12 @@ img{
     border-radius: 30px;
 }
 
+.fa-search .search {
+    padding: 5px 5px 5px 170px;
+    border: 2px solid rgb(231, 229, 235) ;
+    border-radius: 30px;
+}
+
 .fa-bars {
     padding-right: 30px;
     padding-left: 30px;
