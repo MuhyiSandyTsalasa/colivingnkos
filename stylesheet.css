@@ -49,7 +49,7 @@ img{
     border-radius: 30px;
 }
 
-.fa-search .search {
+.fa-search input {
     padding: 5px 5px 5px 170px;
     border: 2px solid rgb(231, 229, 235) ;
     border-radius: 30px;
